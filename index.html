@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Booking Form</title>
+    <style>
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .booking-box {
+            width: min(420px, calc(100% - 32px));
+            padding: 24px;
+            border: 2px solid black;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="booking-box">
+    <h2>Hotel Room Booking  Form</h2>
+
+    <form>
+
+        <label>Full Name:</label>
+        <input type="text" name="fullname" placeholder="Enter your name">
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your email">
+        <br><br>
+
+        <label>Phone Number:</label>
+        <input type="phone" name="phone" placeholder="Enter your phone number">
+        <br><br>
+
+        <label>check in date:</label>
+        <input type="date" name="checkin">
+        <br><br>
+<label>check out date:</label>
+        <input type="date" name="checkout"><br>
+       
+
+        <label>Room Type:</label>
+        <select name="room type ">
+            <option value="single">Single Room</option>
+            <option value="double">Double Room</option>
+            <option value="suite">Suite</option>
+          
+        </select>
+        <br><br>
+
+        <label>number of guests:</label>
+        <input type="number" name="mo. of guests" placeholder="Enter number of guests">
+        <br><br>
+
+        <label>speacial request:</label>
+        <textarea name="address" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <input type="submit" value="book now ">
+        <input type="reset" value="Reset form ">
+
+    </form>
+    <p>name -yash agrawalcse 15 sem 1 btech(2026-2030)</p><br> 
+    .....
+    </div>
+ 
+</body>
+</html>
+
